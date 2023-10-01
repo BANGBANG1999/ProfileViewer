@@ -1,0 +1,298 @@
+
+
+.left{
+    position: absolute;
+    top: -107px;
+    left: 42px;
+}
+
+.usersList{
+    background-color: #C5DFFF;
+    
+    width: 623px;
+    height: 70px;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 174px;
+    left: 105px;
+    align-items: center;
+}
+
+.usersContainer{
+    position: relative;
+    /* top: 265px; */
+    left: 105px;
+    position: relative;
+    top: 225px;
+    left: 105px;
+}
+.usersListText{    
+
+/* font-family: Montserrat, sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 29.26px;
+color: #000000; */
+
+font-family: Montserrat;
+font-weight: 500;
+font-size: 24px;
+line-height: 29.26px;
+color: #000000;
+
+}
+
+.user{
+    /* color: #000000; */
+    width: 623px;
+    height: 66px;
+    display: flex;
+
+    border-radius: 4px;
+padding: 8px 10px 8px 10px;
+gap: 10px;
+}
+
+.userText{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.26px;
+    cursor: pointer;
+color: #000000;
+    /* border-radius: 4px;
+    padding: 8px 10px 8px 10px;
+    gap: 10px; */
+    
+    margin-top: 9px;
+}
+
+.userImg{
+    width: 52px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+
+/* Right Side ----------- */
+
+.right{
+    /* background-color: bisque; */
+    width: 502px;
+    height: 755px;
+    position: absolute;
+    top: 165px;
+    left: 842px;
+}
+
+
+.userDetails{
+    display: flex;
+    justify-content: center;
+    width: 502px;
+    height: 70px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #C5DFFF;
+    position: relative;
+    align-items: center;
+    top: 9px;
+}
+
+.userDetailsText{
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 24px;
+line-height: 29.26px;
+color: #000000;
+
+
+}
+
+.profilePicRight{
+    width: 131px;
+height: 131px;
+width: 131px;
+    height: 131px;
+    border-radius: 100px;
+    left: 185px;
+    position: relative;
+    top: 29px;
+border-radius: 100px;
+}
+
+.name{
+    justify-content: center;
+    width: 106px;
+    height: 22px;
+    display: flex;
+    position: absolute;
+    top: 243px;
+    left: 196px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+}
+
+.description{
+    width: 304px;
+height: 87px;
+/* top: 295px;
+left: 99px; */
+border-radius: 4px;
+border: 1px solid;
+padding: 8px;
+
+position: absolute;
+left: 99px;
+top: 295px;
+
+}
+
+.descriptionText{
+    width: 271px;
+    height: 51px;
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 14px;
+line-height: 17.07px;
+color: #000000;
+}
+
+.fullNameContainer{
+    width: 304px;
+    height: 48px;
+    position: absolute;
+    top: 417px;
+    left: 99px;
+}
+
+.fullName{
+    width: 53px;
+    height: 12px;
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 10px;
+line-height: 12.19px;
+color: 
+#000000;
+}
+
+.fullNameText{
+    width: 304px;
+height: 31px;
+position: absolute;
+top: 17px;
+border-radius: 4px;
+border: 1px solid;
+padding: 8px;
+
+font-family: Montserrat;
+font-weight: 500;
+font-size: 12px;
+line-height: 14.63px;
+
+}
+
+.jobTitleContainer{
+    width: 304px;
+    height: 48px;
+    position: absolute;
+    top: 499px;
+    left: 98px;
+
+}
+
+.jobTitle{
+    width: 43px;
+    height: 12px;
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 10px;
+line-height: 12.19px;
+color: 
+#000000;
+
+}
+
+.jobTitleText{
+    width: 304px;
+height: 31px;
+position: absolute;
+top: 17px;
+border-radius: 4px;
+border: 1px solid #6C6C6C;
+padding: 8px;
+
+font-family: Montserrat;
+font-weight: 500;
+font-size: 12px;
+line-height: 14.63px;
+
+}
+
+.emailContainer{
+    width: 304px;
+    height: 48px;
+    position: absolute;
+    top: 580px;
+    left: 98px;
+}
+
+.email{
+    width: 29px;
+    height: 12px;
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 10px;
+line-height: 12.19px;
+color: #000000;
+}
+
+.emailText{
+    width: 304px;
+height: 31px;
+position: absolute;
+top: 17px;
+border-radius: 4px;
+border: 1px solid #6C6C6C;
+padding: 8px;
+
+font-family: Montserrat;
+font-weight: 500;
+font-size: 12px;
+line-height: 14.63px;
+
+}
+
+.pagination{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    position: absolute;
+    top: 678px;
+    left: 123px;
+}
+.noData{
+    width: 500px;
+    height: 200px;
+    top: 31vh;
+    display: flex;
+    align-items: center;
+    left: 33vw;
+    position: absolute;
+    justify-content: center;
+    background-color: #6C6C6C;
+    /* color: #000000; */
+}
+
+.noDataText{
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 24px;
+line-height: 29.26px;
+color: #000000;
+}
