@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import {Link} from "react-router-dom"
 import UserDetails from './UserDetails'
 import Spinner from './Spinner';
 
@@ -51,7 +52,7 @@ function UserList({progress,setProgress}) {
             console.error("Error fetching data:", error);
             setFetchFailed(true)
             setTimeout(() => {
-                setProgress(100); // Set progress to 0 when fetch fails
+                setProgress(100); 
             }, 100);
         }
 
@@ -137,11 +138,11 @@ function UserList({progress,setProgress}) {
                     <nav>
                         <ul className='pagination'>
                             <li className="page-item">
-                                <a className='page-link' onClick={prevPage} style={{"cursor" : "pointer"}}><b>Prev</b></a>
+                                <Link className='page-link' onClick={prevPage} style={{"cursor" : "pointer"}}><b>Prev</b></Link>
                             </li>
 
                             <li className="page-item">
-                                <a className='page-link' onClick={nextPage} style={{"cursor" : "pointer"}}><b>Next</b></a>
+                                <Link className='page-link' onClick={nextPage} style={{"cursor" : "pointer"}}><b>Next</b></Link>
                             </li>
                         </ul>
                     </nav>
